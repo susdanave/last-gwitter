@@ -1,0 +1,122 @@
+html, body
+{
+  height: 100%;
+  margin: 0;
+}
+
+body
+{
+	background-image: linear-gradient(to right top, #7ee038, #60fc35, #1baf54, #3dc52b, #0fee38);
+	
+}
+
+.header
+{
+	color: white;font-family: 'Comic Neue', cursive;;font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+}
+.header img
+{
+	width: 80px;margin-left: -15px;
+}
+
+.login_div
+{
+	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+}
+
+.logo
+{
+	width: 80px;margin-top: 30px;border-radius: 40px;
+}
+
+#loginButton
+{
+	width: 80%;border-radius: 15px;
+	background-color: yellowgreen;
+}
+
+.roomName
+{
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#logout
+{
+	font-size: 20px; float: right;
+	background-color: chartreuse;
+	border-width: 5px;
+border-color: darkgreen;
+}
+
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
+}
+
+.input_div_room_page
+{
+	width: 80%;
+}
+
+.input_div label
+{
+	color: white;font-size: 20px;
+}
+
+
+.input_div_message_page
+{
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
+}
+.input_div_message_page label
+{
+	color: black;
+}
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
+body {
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.header, .form-group {
+    margin: 20px;
+}
+
+.divContent {
+    background-color: darkseagreen;
+    padding: 6%;
+    border-radius: 30px;
+}
+
+.logo {
+    width: 30%;
+}
+
+#trending {
+    margin-top: 30px;
+    color: color-mix(in srgb, rgb(51, 255, 0) 10%, rgb(25, 182, 43) 10%, rgb(41, 217, 41) 10%, chartreuse 10%, rgb(51, 255, 89) 10%, forestgreen 10%, greenyellow 10%, lawngreen 10%, lightgreen 10%, lime 10%);
+}
